@@ -4,9 +4,34 @@
   
     
     <entry>
+      <title>Java语言基础</title>
+      <link href="/33647.html"/>
+      <url>/33647.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Java环境搭建和开发工具"><a href="#Java环境搭建和开发工具" class="headerlink" title="Java环境搭建和开发工具"></a>Java环境搭建和开发工具</h1><h2 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h2><blockquote><p>1.jdk <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">下载</a><br>2.jdk 和 jre 的区别</p></blockquote><ul><li>JDK：Java Development Kit 的简称，java 开发工具包，提供了 java 的开发环境和运行环境。</li><li>JRE：Java Runtime Environment 的简称，java 运行环境，为 java 的运行提供了所需环境。</li><li>区别：具体来说 JDK 其实包含了 JRE，同时还包含了编译 java 源码的编译器 javac，还包含了很多 java 程序调试和分析的工具。</li><li>简单来说：如果你需要运行 java 程序，只需安装 JRE 就可以了，如果你需要编写 java 程序，需要安装 JDK。 </li></ul><blockquote><p>3.环境变量配置</p></blockquote><ul><li>在 windows 10 只需要配置环境变量 Path-&gt;新建-&gt;填入bin（jdk安装位置下）目录路径（例如我的：C:\Program Files\Java\jdk1.8.0_201\bin）（环境搭建如下图）</li></ul><img src="https://cdn.jsdelivr.net/gh/TheY9/image@latest/2020/05/23/f1021ca09b5f762a762525112f421ae7.png" width="80%"/><img src="https://cdn.jsdelivr.net/gh/TheY9/image@latest/2020/05/23/ac46f547a14c6f52d5d5510d4281b46b.png" width="80%"/> <img src="https://cdn.jsdelivr.net/gh/TheY9/image@latest/2020/05/23/c194df409f1f28ff3189f3fa9f838748.png" width="80%"/> <img src="https://cdn.jsdelivr.net/gh/TheY9/image@latest/2020/05/23/ed20f89ff7c2024d50e1f6fc280f728e.png" width="80%"/> <img src="https://cdn.jsdelivr.net/gh/TheY9/image@latest/2020/05/23/06696101f6070e884db4d65ef9b6d490.png" width="80%"/> <h2 id="Eclipse"><a href="#Eclipse" class="headerlink" title="Eclipse"></a>Eclipse</h2><blockquote><p>1.Eclipse <a href="https://www.eclipse.org/downloads/" target="_blank" rel="noopener">下载</a><br>2.Eclipse 用多了就熟悉了</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇文章</title>
-      <link href="/2020/05/15/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2020/05/15/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <link href="/62824.html"/>
+      <url>/62824.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="学习计划"><a href="#学习计划" class="headerlink" title="学习计划"></a>学习计划</h2><blockquote><p>1.这个博客最简单的功能已经实现，其他复杂的功能以后慢慢搞。<br>2.今后计划使用博客的方式，对学习的知识进行总结。</p></blockquote>]]></content>
       
@@ -30,8 +55,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2020/05/15/hello-world/"/>
-      <url>/2020/05/15/hello-world/</url>
+      <link href="/16107.html"/>
+      <url>/16107.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
